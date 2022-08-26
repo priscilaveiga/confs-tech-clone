@@ -37,6 +37,7 @@ function eventList (json){
         url.innerHTML =  element.url
         ul.appendChild(url)
         newDiv.appendChild(ul)
+        newDiv.setAttribute("class", "container shadow rounded prose bg-blue-200")
         
     })
 
